@@ -29,10 +29,3 @@ A **full-stack URL Shortener** built using the **MERN stack**, featuring **JWT a
 4. Server creates a short URL and stores it in MongoDB
 5. Each visit is logged with a timestamp
 6. User views URLs and analytics on dashboard
-
----
-
-If you want, I can also:
-✔ Make a **one-line resume description**
-✔ Create a **LinkedIn project post**
-✔ Add **screenshots/demo section**
