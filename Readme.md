@@ -67,37 +67,6 @@ Routes
 
 Middlewares
 
-📁 Project Structure
-URL-Shortener-Web-Application/
-├── controllers/
-│   ├── url.js
-│   └── user.js
-│
-├── middlewares/
-│   └── auth.js
-│
-├── models/
-│   ├── url.js
-│   └── user.js
-│
-├── routes/
-│   ├── url.js
-│   ├── user.js
-│   └── staticRoute.js
-│
-├── service/
-│   └── auth.js
-│
-├── views/
-│   ├── home.ejs
-│   ├── login.ejs
-│   └── signup.ejs
-│
-├── connect.js
-├── index.js
-├── package.json
-└── README.md
-
 🔄 Project Flow
 
 User signs up or logs in
