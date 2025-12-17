@@ -69,7 +69,6 @@ Middlewares
 
 📁 Project Structure
 URL-Shortener-Web-Application/
-│
 ├── controllers/
 │   ├── url.js
 │   └── user.js
