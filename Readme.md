@@ -1,156 +1,81 @@
-🔗 URL Shortener Web Application (MERN Stack)
+Here is a **short, crisp, and clean README.md**, optimized for **quick reading**, **GitHub visitors**, and **interviewers**.
+(No extra text, no repetition, very professional.)
 
-A full-stack URL Shortener web application built using the MERN stack, featuring JWT authentication, role-based authorization, URL analytics, and server-side rendering with EJS.
+---
 
-🚀 Features
+# 🔗 URL Shortener Web Application
 
-User Signup & Login with JWT authentication
+A **full-stack URL Shortener** built using the **MERN stack**, featuring **JWT authentication**, **role-based access**, **click analytics**, and **server-side rendering** with EJS.
 
-Short URL generation using nanoid
+---
 
-Automatic redirection to original URLs
+## ✨ Features
 
-Click analytics with timestamp tracking
+* User **signup & login** with JWT authentication
+* Generate **short URLs** using nanoid
+* **Automatic redirection** to original links
+* Track **click count & visit timestamps**
+* **Role-based access control** (NORMAL / ADMIN)
+* Persistent login using **JWT stored in cookies**
+* **Server-side rendered UI** with EJS
 
-Role-based access control
+---
 
-NORMAL users → View only their own URLs
+## 🛠 Tech Stack
 
-ADMIN users → View URLs created by all users
+* **Frontend:** EJS, HTML, CSS
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB, Mongoose
+* **Auth:** JWT, Cookies
+* **Utility:** nanoid
+* **Architecture:** MVC
 
-Persistent login sessions using JWT stored in cookies
+---
 
-Server-side rendered UI using EJS templates
+## 🔄 Application Flow
 
-🛠️ Tech Stack
-Frontend
+1. User signs up or logs in
+2. JWT token is generated and stored in cookies
+3. User submits a long URL
+4. Server creates a short URL and stores it in MongoDB
+5. Each visit is logged with a timestamp
+6. User views URLs and analytics on dashboard
 
-EJS (Server-Side Rendering)
+---
 
-HTML
+## ▶️ Run Locally
 
-CSS
-
-Backend
-
-Node.js
-
-Express.js
-
-Database
-
-MongoDB
-
-Mongoose
-
-Authentication & Authorization
-
-JWT (JSON Web Token)
-
-Cookies (cookie-parser)
-
-Utilities
-
-nanoid – for generating unique short URLs
-
-Architecture
-
-MVC Pattern
-
-Models
-
-Views
-
-Controllers
-
-Routes
-
-Middlewares
-
-🔄 Project Flow
-
-User signs up or logs in
-
-Backend validates credentials and generates a JWT token
-
-JWT token is stored securely in browser cookies
-
-Authentication middleware verifies token on every request
-
-User submits a long URL
-
-Backend generates a short ID using nanoid
-
-URL mapping is stored in MongoDB with user reference
-
-When short URL is accessed:
-
-Click timestamp is recorded
-
-User is redirected to the original URL
-
-Dashboard displays all URLs with click analytics
-
-Admin users can view URLs created by all users
-
-🔐 Authentication & Authorization
-
-Implemented JWT-based authentication
-
-Token stored in cookies for session persistence
-
-Authentication middleware attaches decoded user data to req.user
-
-Role-based authorization using custom middleware:
-
-NORMAL
-
-ADMIN
-
-📊 Analytics
-
-Each visit to a short URL is logged with a timestamp
-
-Total clicks are calculated using visitHistory.length
-
-Analytics API available for each short URL
-
-▶️ Getting Started
-Prerequisites
-
-Node.js
-
-MongoDB
-
-Installation
+```bash
 git clone https://github.com/saijal-02/URL-Shortener-Web-Application.git
 cd URL-Shortener-Web-Application
 npm install
-
-Start MongoDB
-mongod
-
-Run the Application
 npm start
+```
 
+Server runs at:
 
-Server runs on:
-
+```
 http://localhost:8001
+```
 
-📌 Future Enhancements
+---
 
-Password hashing using bcrypt
+## 📌 Future Improvements
 
-Token expiration & refresh tokens
+* Password hashing (bcrypt)
+* Token expiration & refresh
+* UI enhancements
+* Public analytics view
 
-Improved UI/UX
+---
 
-Public analytics dashboard
+## 👨‍💻 Author
 
-Rate limiting & security improvements
+**Saijal Gupta** – MERN Stack Developer
 
-👨‍💻 Author
+---
 
-Saijal Gupta
-MERN Stack Developer
+If you want, I can also:
+✔ Make a **one-line resume description**
+✔ Create a **LinkedIn project post**
+✔ Add **screenshots/demo section**
